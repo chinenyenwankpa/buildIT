@@ -1,0 +1,26 @@
+.navbarContainer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 10px 40px 10px 40px;
+  font-weight: 500;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.navbarList {
+  display: flex;
+  gap: 24px;
+  /* gap: 20px; */
+  /* color: black; */
+}
+
+.logo {
+  width: 170px;
+  height: 25px;
+}

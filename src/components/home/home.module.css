@@ -1,0 +1,99 @@
+.home{
+    /* display: flex; */
+    position: relative;
+}
+
+.home img{
+    width: 100%;
+    display: block;
+}
+
+.buildvision{
+
+    /* display: flex;
+    position: absolute;
+    margin: 10px; */
+}
+
+.buildvision p{
+    margin: 100px 125px 100px 125px;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+}
+
+.buildvision span{
+    margin: 5px;
+}
+
+.cement{
+    width: 100%;
+    padding: 40px;
+}
+
+.serviceContainer{
+    display: flex;
+    position: relative;
+}
+
+.serviceText{
+    padding-left: 40px;
+    margin-right: 650px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.serviceText p{
+    margin-top: 16px;
+}
+  
+.buildItContainer{
+    background-color: #0E3C99;
+    color: #FFFFFF;
+}
+
+.detailsOverallcontainer{
+    padding-bottom: 122px;
+    padding-top: 80px;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+.detailsContainer{
+    margin-top: 80px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.details{
+    display: flex;
+    gap: 30px;
+}
+
+.submitButton{
+    background-color: #FFFFFF;
+    color: #0E3C99;
+    padding-right: 155px;
+    padding-left: 155px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 16px;
+}
+
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 73px;
+}
+
+.contactSocials{
+    display: flex;
+    gap: 32px
+}
+.contactNumber{
+    display: flex;
+    gap: 28px;
+}
